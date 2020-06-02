@@ -14,29 +14,27 @@
 # # output will our current working directory
 
 # 2nd iteration - comment out the above code
-import os
+from os import *
+import math, datetime, sys
 
-# now we will create our own methods and utilise built in methods to get best out of python
-working_directory = os.getcwd()
-
-# Let's create a method find out the user id
 def return_user_id():
-    print(os.getuid())
+    print(os.getcwd())
 
-# find out the os info
+def operating_system_information():
+    print(os.cpu_count())
 
-def operation_system_information():
-    print(os.uname())
+print(math.remainder(1, 5))
 
+print(datetime.date.today())
+
+print(sys.path)
 
 # we will create another file called use_os_module in the same directory
 # we will import this file in use_os_module and
 
-#print(working_directory)
+# print(working_directory)
 # output will our current working directory
 
-
 # return_user_id()
-# operating_system_information()
 #
 # print(working_directory)

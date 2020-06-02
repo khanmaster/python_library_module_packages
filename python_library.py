@@ -10,19 +10,19 @@ print(random.random())
 # let's see what is does
 each time it generates a random float number between 0-1
 
-2nd iteration - comment out the above code
-We'ill simplify it even further by using from import statement together to remove the need to call the basse random object
+#2nd iteration - comment out the above code
+#We'ill simplify it even further by using from import statement together to remove the need to call the basse random object
 #
 from random import random
 
 print(random())
-This will produce the same result but keeps our code clean and readable
+# This will produce the same result but keeps our code clean and readable
 
-Let's see how can we use multiple packages from python library
+# Let's see how can we use multiple packages from python library
 
-we'll add a package called math
+# we'll add a package called math
 
-comment out the above code
+# comment out the above code
 from random import random
 import math
 

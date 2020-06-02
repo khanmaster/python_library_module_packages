@@ -40,3 +40,13 @@ print(math.floor(num_floar))
 print("ceil method will round the figure to 24 from 23.66, to the higher end of the float value")
 print(math.ceil(num_floar))
 ``` 
+```markdown
+
+exercise:
+
+get user input of a float number
+check if the number is greater than .50 then round the figure to lower end
+check if the number is greater than .51 then round the figure to higher end
+example - num_float = 23.66 - round it to 24, num_float = 23.50 - round it to lower end
+tips - get help online - python library
+```

@@ -2,27 +2,27 @@
 # most languages have built in methods and we will see how can we take advantage of them in python
 
 # first iteration
-#
-# import random
-# # we have a random method in python library which we can use by importing it here
-#
-# print(random.random())
-# # let's what is does
-# each time it generates a random float number between 0-1
 
-# 2nd iteration - comment out the above code
-# We'ill simplify it even further by using from import statement together to remove the need to call the basse random object
+import random
+# we have a random method in python library which we can use by importing it here
+
+print(random.random())
+# let's what is does
+each time it generates a random float number between 0-1
+
+2nd iteration - comment out the above code
+We'ill simplify it even further by using from import statement together to remove the need to call the basse random object
 #
-# from random import random
-#
-# print(random())
-# This will produce the same result but keeps our code clean and readable
+from random import random
 
-# Let's see how can we use multiple packages from python library
+print(random())
+This will produce the same result but keeps our code clean and readable
 
-# we'll add a package called math
+Let's see how can we use multiple packages from python library
 
-# comment out the above code
+we'll add a package called math
+
+comment out the above code
 from random import random
 import math
 

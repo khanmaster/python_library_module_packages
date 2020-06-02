@@ -7,7 +7,7 @@ import random
 # we have a random method in python library which we can use by importing it here
 
 print(random.random())
-# let's what is does
+# let's see what is does
 each time it generates a random float number between 0-1
 
 2nd iteration - comment out the above code

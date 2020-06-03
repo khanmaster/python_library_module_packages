@@ -28,7 +28,7 @@ import math
 
 print(" This number is generated randomly using the RANDOM method " + str(random()))
 
-# Let's creata variable and assign float value
+# Let's create variable and assign float value
 
 num_floar = 23.66
 

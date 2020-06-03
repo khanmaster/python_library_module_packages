@@ -59,21 +59,21 @@ tips - get help online - python library
 ```python
 import requests
 
-requests_bbc = requests.get("http://www.bbc.co.uk/")
+response_bbc = requests.get("http://www.bbc.co.uk/")
 
 
-print(requests_bbc.status_code)
-print(requests_bbc.headers)
-print(requests_bbc.content)
+print(response_bbc.status_code)
+print(response_bbc.headers)
+print(response_bbc.content)
 ```
 - second iteration to simplify our code and make it reusable
 
 ```python
 
 def check_response_code():
-    if requests_bbc.status_code == 200:
+    if response_bbc.status_code == 200:
         print("Response successful")
-    elif requests_bbc.status_code == 404:
+    elif response_bbc.status_code == 404:
         print(" Sorry page not found")
     else:
         print(" Opps some went wrong")
@@ -86,9 +86,9 @@ print(check_response_code())
 
 def check_response_code():
 
-    if requests_bbc:
+    if response_bbc:
         print("Response successful")
-    elif requests_bbc:
+    elif response_bbc:
         print(" Sorry page not found")
     else:
         print(" Opps some went wrong")
